@@ -33,10 +33,11 @@ export default function(props) {
       <Details>
         {
           planetDetailLabels.map((detail, idx) => {
+            
             return (
               <DetailItem key={`planet-detail-${idx}`}>
                 <DetailName>{detail}</DetailName>
-                <DetailValue>{data[detail]}</DetailValue>
+                <DetailValue>{detail === 'diameter' && parseInt(data[detail]) === 0 ? 'Unknown' : data[detail]}</DetailValue>
               </DetailItem>
             );
           })
