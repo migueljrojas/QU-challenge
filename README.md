@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Check the results in: https://qu-challenge-delta.vercel.app/
+Check the results in: https://starwars-test.vercel.app/
 
 ## Available Scripts
 
